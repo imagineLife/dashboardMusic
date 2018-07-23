@@ -10,4 +10,6 @@ app.listen(PORT, () => {
 	console.log(`server running on ${PORT}`)
 })
 
+console.log('MicCheck')
+
 module.exports = {app}
