@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/api/*', (req,res) => {
-	res.json({ok: true})
+	res.json({ok: "dashboardMusic"})
 })
 
 app.listen(PORT, () => {
