@@ -25,7 +25,7 @@ app.get('/api/*', (req,res) => {
 })
 
 app.get('/jazzCharts', (req,res) => {
-	res.json( { willBe : "JazzCharts" } )
+	res.json({"willBe":"JazzCharts"})
 })
 
 // catch-all endpoint if client makes request to non-existent endpoint
